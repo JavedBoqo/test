@@ -7,7 +7,7 @@ const path = require('path')
 const fs = require("fs");
 const fastCsv = require("fast-csv");
 const { addDoc, collection } = require('firebase/firestore')
-const { db } = require('./firebase.config')
+const { db } = require('../firebase.config')
 
 
 //use express static folder
