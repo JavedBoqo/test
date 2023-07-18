@@ -43,6 +43,9 @@ const options = {
 };
 
 const data = [];
+app.get('/',(req,res,next) =>{
+    res.send("Done");
+})
 
 // upload csv to database
 app.post('/uploadfile', upload.single("file"), (req, res, next) =>{
